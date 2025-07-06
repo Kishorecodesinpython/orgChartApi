@@ -1,0 +1,9 @@
+objective: Generate unit tests using Google Test for the provided C++ source files.
+rules:
+  - Test each public method and function from Person, Job, and PersonsController.
+  - Do not write duplicate tests.
+  - Use Google Test syntax.
+  - Include required headers.
+  - Use descriptive test names.
+  - Save output in the "tests" folder.
+output_format: gtest
